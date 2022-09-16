@@ -1,0 +1,37 @@
+@use '../custom' as *;
+@use '../components/mixins' as *;
+
+.get-started {
+    padding: 4rem 0;
+    background-color: $gray-200;
+}
+
+.gradient {
+    background: linear-gradient(to right, rgba($primary, 0.95), rgba($secondary, 0.95));
+}
+
+.cta-info {
+    padding: 3rem;
+    margin: 1rem 0;
+
+    &__list {
+       position: relative;  
+    }
+}
+
+// FORM CONTENT
+
+.form {
+    padding: 3rem;
+
+    button {
+        border: none;
+        color: $white;
+
+        a {
+            color: $white;
+            text-decoration: none;
+            text-transform: capitalize;
+        }
+    }
+}
