@@ -9,8 +9,13 @@
     }
 
     a{
-        color: $white !important;
+        color: $white;
         text-transform: capitalize;
         font-weight: 600;
+    }
+
+    .button a {
+        text-decoration: none;
+        color: $black;
     }
 }
