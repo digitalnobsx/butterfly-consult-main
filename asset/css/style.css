@@ -10972,17 +10972,6 @@ html {
   color: rgba(140, 66, 129, 0.7);
   font-size: 1rem;
 }
-.testimonials__picture {
-  width: 6rem;
-  height: 6rem;
-  position: absolute;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  object-fit: fill;
-}
-.testimonials__picture img {
-  border: 0.325rem solid rgba(140, 66, 129, 0.7);
-}
 .testimonials__name {
   padding-top: 0rem;
   margin-bottom: 0.1rem;
@@ -10991,11 +10980,11 @@ html {
   color: rgba(140, 66, 129, 0.7);
 }
 .testimonials__name h3 {
-  padding-top: 0rem;
+  padding: 0rem;
   text-transform: capitalize;
 }
 .testimonials__name p {
-  padding-bottom: 0rem;
+  padding: 0;
   text-transform: capitalize;
 }
 

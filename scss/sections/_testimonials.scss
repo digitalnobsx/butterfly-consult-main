@@ -29,19 +29,7 @@
         }
     }
 
-    &__picture {
-        width: 6rem;
-        height: 6rem;
-        position: absolute;
-        left: 50%;
-        transform: translate(-50%, -50%);
-        object-fit: fill;
-        
 
-        img {
-            border: 0.325rem solid rgba($primary, 0.7);
-        }
-    }
 
     &__name {
         padding-top: 0rem;
@@ -51,12 +39,12 @@
         color: rgba($primary, 0.7);
 
         h3 {
-            padding-top: 0rem;
+            padding: 0rem;
             text-transform: capitalize;
         }
 
         p {
-            padding-bottom: 0rem;
+            padding: 0;
             text-transform: capitalize;
         }
     }
