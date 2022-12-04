@@ -12,7 +12,7 @@
         font-family: 'Poppins', sans-serif;
         white-space: nowrap;
         overflow: hidden;
-        font-size: 3rem;
+        font-size: 2rem;
         
         @include media-breakpoint-up(lg) {
                 font-size: 4rem;
@@ -79,6 +79,14 @@
         }
     }
 }
+
+.display-4 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300;
+}
+
+
+
 
 
 // BORDER RIGHT
