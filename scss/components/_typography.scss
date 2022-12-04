@@ -8,9 +8,19 @@
 
     &--intro {
         display: inline-block;
-        font-weight: 400;
+        font-weight: 700;
         font-family: 'Poppins', sans-serif;
+        white-space: nowrap;
+        overflow: hidden;
+        font-size: 3rem;
+        
+        @include media-breakpoint-up(lg) {
+                font-size: 4rem;
+                display: inline-block;
+            }
+        
     }
+
 
     &--description {
         font-size: 1rem;

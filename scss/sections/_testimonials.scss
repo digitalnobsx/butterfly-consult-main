@@ -8,7 +8,8 @@
 
     &__card {
         background-color: rgba($white, 0.8);
-        padding: 2rem 1.25rem;
+        padding: 1.3rem 1.25rem;
+        margin: 2rem 0rem;
         border-radius: 0.625rem;
         height: auto;
         text-align: center;
@@ -43,19 +44,19 @@
     }
 
     &__name {
-        padding-top: 1.5rem;
-        margin-bottom: 1rem;
+        padding-top: 0rem;
+        margin-bottom: 0.1rem;
         text-align: center;
         font-weight: 500;
-        color: $white;
+        color: rgba($primary, 0.7);
 
         h3 {
-            padding-top: 0.8rem;
+            padding-top: 0rem;
             text-transform: capitalize;
         }
 
         p {
-            padding-bottom: 2rem;
+            padding-bottom: 0rem;
             text-transform: capitalize;
         }
     }

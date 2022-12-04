@@ -10792,7 +10792,7 @@ html {
 }
 .btn-rounded:hover {
   background: linear-gradient(to right, rgba(140, 66, 129, 0.95), rgba(190, 112, 177, 0.95));
-  color: #fff !important;
+  color: #fff;
 }
 .btn-rounded:hover span {
   background-color: rgba(0, 0, 0, 0.6);
@@ -10807,6 +10807,15 @@ html {
   display: inline-block;
   font-weight: 700;
   font-family: "Poppins", sans-serif;
+  white-space: nowrap;
+  overflow: hidden;
+  font-size: 3rem;
+}
+@media (min-width: 992px) {
+  .display-2--intro {
+    font-size: 4rem;
+    display: inline-block;
+  }
 }
 .display-2--description {
   font-size: 1rem;
@@ -10877,6 +10886,11 @@ html {
   text-transform: capitalize;
   font-weight: 600;
 }
+@media (min-width: 992px) {
+  .menu .button {
+    display: none;
+  }
+}
 .menu .button a {
   text-decoration: none;
   color: #000;
@@ -10902,6 +10916,10 @@ html {
 .services {
   position: relative;
   padding: 1rem 0;
+  /* .btn-rounded {
+      @include media-breakpoint-down(sm) {
+          display: none;
+      } */
 }
 .services__content {
   padding: 1rem;
@@ -10940,7 +10958,8 @@ html {
 }
 .testimonials__card {
   background-color: rgba(255, 255, 255, 0.8);
-  padding: 2rem 1.25rem;
+  padding: 1.3rem 1.25rem;
+  margin: 2rem 0rem;
   border-radius: 0.625rem;
   height: auto;
   text-align: center;
@@ -10965,18 +10984,18 @@ html {
   border: 0.325rem solid rgba(140, 66, 129, 0.7);
 }
 .testimonials__name {
-  padding-top: 1.5rem;
-  margin-bottom: 1rem;
+  padding-top: 0rem;
+  margin-bottom: 0.1rem;
   text-align: center;
   font-weight: 500;
-  color: #fff;
+  color: rgba(140, 66, 129, 0.7);
 }
 .testimonials__name h3 {
-  padding-top: 0.8rem;
+  padding-top: 0rem;
   text-transform: capitalize;
 }
 .testimonials__name p {
-  padding-bottom: 2rem;
+  padding-bottom: 0rem;
   text-transform: capitalize;
 }
 
